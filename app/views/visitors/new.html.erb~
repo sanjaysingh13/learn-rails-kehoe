@@ -1,11 +1,18 @@
-<% content_for :title do %>Foobar Kadigan<% end %>
-<% content_for :description do %>Website of Foobar Kadigan<% end %>
+<% content_for :title do %>Autorickshaw Productions<% end %>
+<% content_for :description do %>Website of Autorickshaw Productions<% end %>
 <section>
-  <img src="http://www.autorickshawproductions.com/images/auto%20-logo%202.png">
+  	<div class="column">
+	<%= image_tag "autologo.png" %>
+	</div>
+	<div class="column">
+	<h2>The home of good films</h2>
+	<p>...aesthetics beyond form.</p>
+	</div>
 </section>
 <section>
   <div class="column">
     <h2>Stay in touch.</h2>
+    <p>We don't just make films. We share our dreams</p>
   </div>
   <div class="column">
     <div class="form-centered">
