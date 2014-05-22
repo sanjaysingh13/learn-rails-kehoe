@@ -42,7 +42,7 @@ main {
   @include twelve-columns;
   background-color: #eee;
   }
-@font-face{ font-family: 'myFirstFont'; src: url('ColabLig-webfont.eot'); src: url('ColabLig-webfont.eot?iefix') format('eot'), url('ColabLig-webfont.woff') format('woff'), url('ColabLig-webfont.ttf') format('truetype'), url('ColabLig-webfont.svg#webfont') format('svg'); }
+@font-face{ font-family: 'myFirstFont'; src: url('CaviarDreams-webfont.eot'); src: url('CaviarDreams-webfont.eot?iefix') format('eot'), url('CaviarDreams-webfont.woff') format('woff'), url('CaviarDreams-webfont.ttf') format('truetype'), url('CaviarDreams-webfont.svg#webfont') format('svg'); }
 div
 {
 font-family:myFirstFont;

@@ -9,12 +9,12 @@
 	<p>...aesthetics beyond form.</p>
 	</div>
 </section>
-<section>
-  <div class="column">
+<section class="row">
+  <div class="small-12 medium-4 columns">
     <h2>Stay in touch.</h2>
     <p>We don't just make films. We share our dreams</p>
   </div>
-  <div class="column">
+  <div class="small-12 medium-8 columns">
     <div class="form-centered">
       <%= simple_form_for @visitor do |f| %>
         <%= f.error_notification %>
