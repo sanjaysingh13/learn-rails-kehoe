@@ -1,0 +1,20 @@
+<% content_for :title do %>Films<% end %>
+<%= image_tag "u2108-4.png" %>
+<ul class="small-block-grid-2 medium-block-grid-3 large-block-grid-3">
+  <li><a  href="http://www.autorickshawproductions.com/peak--ep--teaser.html"><%= image_tag "autologo.png" %></a></li>
+  <li><a  href="http://www.autorickshawproductions.com/sound-thief.html"><%= image_tag "autologo.png" %></a></li>
+  <li><a  href="http://www.autorickshawproductions.com/20-days-of-rain.html"><%= image_tag "autologo.png" %></a></li>
+</ul>
+<%= image_tag "camerea 5d 2.png" %>
+<ul class="small-block-grid-2 medium-block-grid-3 large-block-grid-4">
+  <li><a  href="http://www.autorickshawproductions.com/nikhita---rishabh.html"><%= image_tag "autologo.png" %></a></li>
+  <li><a  href="http://www.autorickshawproductions.com/lost-in-a-city.html"><%= image_tag "autologo.png" %></a></li>
+  <li><a  href="http://www.autorickshawproductions.com/nujs-mun-2013.html"><%= image_tag "autologo.png" %></a></li>
+<li><a  href="http://www.autorickshawproductions.com/fullstop--no-new-friends.html"><%= image_tag "autologo.png" %></a></li>
+<li><a  href="http://www.autorickshawproductions.com/sound-thief--teaser.html"><%= image_tag "autologo.png" %></a></li>
+<li><a  href="http://www.autorickshawproductions.com/nujs-outlawed-2013.html"><%= image_tag "autologo.png" %></a></li>
+<li><a  href="http://www.autorickshawproductions.com/elem-notun-deshe-live.html"><%= image_tag "autologo.png" %></a></li>
+<li><a  href="http://www.autorickshawproductions.com/the-hat-song---the-suitables.html"><%= image_tag "autologo.png" %></a></li>
+<li><a  href="http://www.autorickshawproductions.com/a-bhadralok-s-adventure.html"><%= image_tag "autologo.png" %></a></li>
+</ul>
+<p>A</p>
