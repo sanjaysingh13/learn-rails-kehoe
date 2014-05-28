@@ -1,0 +1,27 @@
+<% content_for :title do %><%= @film.name%><% end %>
+<% content_for :description do %>Website of Autorickshaw Productions<% end %>
+<section class="row">
+	
+	
+	<div class="small-12 medium-6 columns">
+		<div class="flex-video widescreen vimeo">
+		<%== @film.link%> 
+		</div>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+</section>
+<section class="row">
+	<div class="small-12 medium-6 columns">
+		<div class="panel">
+			<%== @film.writeup%>
+
+		</div>
+	</div>
+<div class="small-12 medium-6 columns">
+		<div class="panel">
+			<%== @film.writeup%>
+
+		</div>
+	</div>
+</section> 
+

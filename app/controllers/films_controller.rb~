@@ -1,0 +1,7 @@
+class FilmsController < ApplicationController
+  def new
+  end
+  def show
+	@film = Films.find(params[:id])
+  end
+end
