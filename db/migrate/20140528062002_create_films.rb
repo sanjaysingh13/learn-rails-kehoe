@@ -3,7 +3,9 @@ class CreateFilms < ActiveRecord::Migration
     create_table :films do |t|
       t.string :name
       t.string :link
+      t.string :url
       t.text :writeup
+      t.text :credits
       t.string :still1
       t.string :still2
       t.string :still3

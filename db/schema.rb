@@ -16,7 +16,9 @@ ActiveRecord::Schema.define(version: 20140528062002) do
   create_table "films", force: true do |t|
     t.string   "name"
     t.string   "link"
+    t.string   "url"
     t.text     "writeup"
+    t.text     "credits"
     t.string   "still1"
     t.string   "still2"
     t.string   "still3"
