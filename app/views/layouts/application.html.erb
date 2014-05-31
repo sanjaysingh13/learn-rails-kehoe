@@ -11,7 +11,7 @@
     <%= csrf_meta_tags %>
   </head>
   <body>
-    <header>
+    <Div class= "header">
       <%= render 'layouts/navigation' %>
 <section>
   	<div class="column">
@@ -23,10 +23,13 @@
     <p>We don't just make films. We share our dreams</p>
 	</div>
 </section>
-    </header>
+    </div>
     <main role="main">
        <%= render 'layouts/messages' %>
        <%= yield %>
     </main>
+    <div class = "footer">
+      <p style="color:green;">Web Developer: <b>manisharana31@gmail.com</b></p>
+    </div>
   </body>
 </html>
