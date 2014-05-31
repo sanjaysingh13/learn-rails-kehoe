@@ -18,6 +18,16 @@
          <%= form.button :submit, 'Submit', class: 'submit' %>
         <% end %>
    </div>
-   
-	</div>
+  </div>
+  <div>
+    <h2>Stay in touch.</h2>
+    <div class="form-centered">
+           <%= simple_form_for @contact do |f| %>
+            <%= f.error_notification %>
+            <%= f.input :email, label: false, :placeholder => 'Your email address...' %>
+            <br/>
+            <%= f.button :submit, "Sign up for the newsletter", :class => "submit" %>
+         <% end %>
+      </div>
+    </div>
 </section> 
