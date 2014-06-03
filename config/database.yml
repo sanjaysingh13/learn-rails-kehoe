@@ -23,7 +23,8 @@ test:
 production:
   <<: *default
   adapter: postgresql
-  database: mission
-  username: aastha
-  password: gimli
-  host: localhost
+  database: ddrun6fsinabmg
+  username: xajiuqoxweavqb
+  password: O_ViWglFIw9vDElZ3eEd2FPj6m
+  host: ec2-54-225-243-113.compute-1.amazonaws.com
+  port: 5432
